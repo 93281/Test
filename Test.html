@@ -1,1 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aqua Themed Page</title>
+    <style>
+        /* Overall page background */
+        body {
+            background-color: #00FFFF; /* Aqua color */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
 
+        /* Header with centered text */
+        .header {
+            text-align: center;
+            font-size: 20px;
+            padding: 20px;
+            background-color: rgba(0, 255, 255, 0.5); /* Light transparent aqua */
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1;
+        }
+
+        /* Watermark in the far left corner */
+        .watermark {
+            position: absolute;
+            left: 10px;
+            bottom: 10px;
+            font-size: 40px;
+            color: rgba(0, 0, 0, 0.1); /* Light gray text */
+            font-weight: bold;
+            transform: rotate(-45deg);
+        }
+
+        /* Centered video */
+        .video-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin-top: 60px; /* Space for the header */
+        }
+
+        video {
+            max-width: 100%;
+            height: auto;
+            border: 5px solid #00BFBF; /* Aqua border for the video */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Watermark -->
+    <div class="watermark">93281</div>
+
+    <!-- Header with message -->
+    <div class="header">
+        This website was made by me to bypass the school's gaming video restriction.
+    </div>
+
+    <!-- Video section -->
+    <div class="video-container">
+        <video controls>
+            <source src="https://github.com/your-username/your-repository/raw/main/39221.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+</body>
+</html>
